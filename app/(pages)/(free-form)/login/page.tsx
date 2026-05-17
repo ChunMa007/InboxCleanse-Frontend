@@ -8,6 +8,13 @@ import {
 } from "@mui/material";
 import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
 import LoginForm from "@/app/component/form/LoginForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Login - Inbox Cleanse",
+  description:
+    "Take control of your inbox. Unsubscribe from unwanted emails with ease and keep your inbox clean and organized.",
+};
 
 export default function LoginPage() {
   return (
